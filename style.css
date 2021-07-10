@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  body h1,
+  p{
+    color: hsl(0, 0%, 100%);
+  }
+  h3 {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  span {
+    color: hsl(277, 64%, 61%);
+  }
+  body h1 {
+    font-family: "Inter", sans-serif;
+  }
+  .analytics p {
+    font-family: "Lexend Deca", sans-serif;
+    color: (0, 0%, 100%, 0.6);
+    font-size: 0.75rem;
+  }
+  
+  
+  body p {
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    line-height: 1.5625rem;
+    font-size: 0.9375rem;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  
+  body h3 {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .tr1 {
+    height: 25rem;
+    width: 62.5rem;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 0.5rem;
+    display: flex;
+  }
+  
+  .tr1sub {
+    padding: 4rem;
+  }
+  .mainpara {
+    margin-bottom: 3.75rem;
+    margin-top: 1.875rem;
+  }
+  .secondone {
+    display: flex;
+  }
+  .companies {
+    padding-right: 3.125rem;
+  }
+  .templates {
+    padding-right: 3.125rem;
+  }
+  .queries {
+    padding-right: 3.125rem;
+  }
+  
+  .tr2 .image {
+    height: 25rem;
+    width: 30.3125rem;
+    position: absolute;
+    background: hsl(277, 90%, 31%);
+    z-index: 2;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    opacity: 60%;
+  }
+  .tr2 img {
+    height: 25rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    color: hsl(277, 64%, 61%);
+    z-index: 1;
+  }
+  
+  
+  @media (max-width: 902px) {
+    body {
+      min-height: 70vh;
+      text-align: center;
+      margin: 2.5rem 2.5rem 5rem 2.5rem;
+    }
+  
+    .tr1 {
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: relative;
+    }
+    .formobile {
+      background: url(images/image-header-mobile.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 15.625rem;
+      position: absolute;
+      border-top-right-radius: 0.4375rem;
+      border-top-left-radius: 0.4375rem;
+    }
+    .container {
+      background: hsl(277, 90%, 31%);
+      background-size: cover;
+      width: 100%;
+      height: 15.625rem;
+      position: absolute;
+      border-top-right-radius:0.4375rem;
+      border-top-left-radius: 0.4375rem;
+      position: absolute;
+      z-index: 2;
+      opacity: 60%;
+    }
+    .tr1 h1 {
+      font-size: 1.75rem;
+    }
+    .tr1sub {
+        padding: 17.5rem 1rem 1rem 1rem;
+      
+    }
+  
+    .mainpara {
+      margin: 1.25rem 0rem 2.50 0rem;
+      
+    }
+    .secondone {
+      display: flex;
+      flex-direction: column;
+    }
+    .companies {
+        padding: 0rem 3rem 1.25rem 3rem;
+    }
+    .templates {
+        padding: 0rem 3rem 1.25rem 3rem;
+    }
+    .queries {
+      padding: 0rem 3rem 1.25rem 3rem;
+    }
+  
+    .tr2 {
+      display: none;
+    }
+    
+  }
